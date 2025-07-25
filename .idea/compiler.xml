@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="huiminpay-uaa-service" />
+        <module name="huiminpay-common" />
+        <module name="huiminpay-user-api" />
+        <module name="rocketmq-producer" />
+        <module name="huiminpay-merchant-api" />
+        <module name="huiminpay-transaction-api" />
+        <module name="huiminpay-user-service" />
+        <module name="huiminpay-gateway-service" />
+        <module name="huiminpay-uaa-api" />
+        <module name="huiminpay-merchant-application" />
+        <module name="huiminpay-agent-api" />
+        <module name="huiminpay-transaction-service" />
+        <module name="huiminpay-agent-service" />
+        <module name="rocketmq-consumer" />
+        <module name="huiminpay-merchant-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="huiminpay" options="-parameters" />
+      <module name="huiminpay-agent" options="-parameters" />
+      <module name="huiminpay-agent-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="huiminpay-agent-service" options="-parameters" />
+      <module name="huiminpay-common" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="huiminpay-gateway" options="-parameters" />
+      <module name="huiminpay-gateway-service" options="-parameters" />
+      <module name="huiminpay-merchant" options="-parameters" />
+      <module name="huiminpay-merchant-api" options="-parameters" />
+      <module name="huiminpay-merchant-application" options="-parameters" />
+      <module name="huiminpay-merchant-service" options="-parameters" />
+      <module name="huiminpay-transaction" options="-parameters" />
+      <module name="huiminpay-transaction-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="huiminpay-transaction-service" options="-parameters" />
+      <module name="huiminpay-uaa" options="-parameters" />
+      <module name="huiminpay-uaa-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="huiminpay-uaa-service" options="-parameters" />
+      <module name="huiminpay-user" options="-parameters" />
+      <module name="huiminpay-user-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre/lib/jce.jar&quot;" />
+      <module name="huiminpay-user-service" options="-parameters" />
+      <module name="rocketmq-consumer" options="-parameters" />
+      <module name="rocketmq-producer" options="-parameters" />
+      <module name="test-rocketmq" options="-parameters" />
+    </option>
+  </component>
+</project>

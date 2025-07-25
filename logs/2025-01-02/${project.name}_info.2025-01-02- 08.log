@@ -1,0 +1,9 @@
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,996 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for transaction-service obtained from Discovery client: [192.168.132.1:56050]
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,996 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for transaction-service obtained from Discovery client: [192.168.132.1:56050]
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,996 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [transaction-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,996 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [transaction-service]:  addServer [192.168.132.1:56050]
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,996 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.132.1:56050]}
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,996 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [transaction-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:02,997 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [transaction-service_unknown]:  addServer [192.168.132.1:56050]
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 09:00:07,446 DEBUG
+            [NettyServerWorker-4-7][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.132.1:64473, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.137.1

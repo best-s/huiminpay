@@ -1,0 +1,7 @@
+[${project.name}][${env:SERVER_PORT}] 2024-12-26 13:00:21,025 DEBUG
+            [NettyClientWorker-1-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xed09d30d, L:/192.168.137.1:53822 - R:/192.168.137.1:20890]], dubbo version: 2.7.3, current host: 192.168.137.1
+[${project.name}][${env:SERVER_PORT}] 2024-12-26 13:00:21,025 DEBUG
+            [NettyClientWorker-1-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-2, dubbo version: 2.7.3, current host: 192.168.137.1
+[${project.name}][${env:SERVER_PORT}] 2024-12-26 13:00:22,905 WARN
+            [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:7) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2024-12-26 13:00:28,172 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:7) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services

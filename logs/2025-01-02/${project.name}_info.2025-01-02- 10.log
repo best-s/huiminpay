@@ -1,0 +1,5 @@
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 11:00:03,836 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 11:00:03,836 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 11:00:03,836 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 11:00:03,837 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:232] - Content-Length header = -1
+[${project.name}][${env:SERVER_PORT}] 2025-01-02 11:00:03,839 DEBUG [http-nio-56010-exec-9][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
