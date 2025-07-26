@@ -21,9 +21,9 @@ public class OssTest {
         // 地域节点
         String endpoint = "oss-cn-beijing.aliyuncs.com";
         // accessKeyId
-        String accessKeyId = "LTAI5tA4GxGvqaSJ1BzBVrYA";
+        String accessKeyId = "";
         // accessKeySecret
-        String accessKeySecret = "c0nXn2ITQasCwgdj3vhhJPY5xvdat0";
+        String accessKeySecret = "";
         // 存储空间名称
         String bucketName = "huiminpaytest";
         // 上传后文件的名字
